@@ -1,0 +1,33 @@
+{
+  "name": "api_gateway",
+  "version": "0.1.0",
+  "description": "Api Gateway Microservice for Ithaka hack",
+  "main": "api_gateway/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api_gateway/server.js"
+  },
+  "author": "Anirban Roy Das",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bluebird": "^3.5.0",
+    "bunyan": "^1.8.10",
+    "http": "0.0.0",
+    "js-yaml": "^3.8.3",
+    "koa": "^2.2.0",
+    "koa-better-body": "^3.0.2",
+    "koa-bunyan-logger": "^2.0.0",
+    "koa-redis": "^3.0.0",
+    "koa-router": "^7.1.1",
+    "koa-session-minimal": "^3.0.3",
+    "lodash": "^4.17.4",
+    "object-sizeof": "^1.2.0",
+    "qs": "^6.4.0",
+    "redis": "^2.7.1",
+    "urlsafe-base64": "^1.0.0",
+    "uuid": "^3.0.1",
+    "yargs": "^7.1.0"
+  }
+}
