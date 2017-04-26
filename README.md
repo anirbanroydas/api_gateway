@@ -72,7 +72,11 @@ See, there are so many technologies used mentioned in the tech specs and yet the
   - **openssl**
   - **ssh-keygen**
   - **openssh**
+
+* **Step 4 - Environment Variables/Files**
   
+  1. Change file `api_gateway.conf` to `.api_gateway.conf` and update the variables with specific values. (You can ind this file inside `api_gateway/config` directory)
+  2. For automated deployments, also change `env` file inside `scripts` directory to `.env` and update the variables with specific values.  
 
 
 ## CI Setup
